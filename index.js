@@ -8,13 +8,13 @@ let looping = [red, blue, black];
     colorGroup.forEach(function (element) {
         element.addEventListener("click", function () {
             if (index === 0) {
-                all_value.style.backgroundImage = "url(/BMW_bike_img/BMW1.png)";
+                all_value.style.backgroundImage = "url(BMW1.png)";
             }
             else if (index === 1) {
-                all_value.style.backgroundImage = "url(/BMW_bike_img/BMW2.png)";
+                all_value.style.backgroundImage = "url(BMW2.png)";
             } 
             else if (index === 2) {
-                all_value.style.backgroundImage = "url(/BMW_bike_img/BMW3.png)";
+                all_value.style.backgroundImage = "url(BMW3.png)";
             }
         });
     });
